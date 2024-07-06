@@ -1,0 +1,36 @@
+:root {
+  --color-bg: black;
+  --color-text: whitesmoke;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.App {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 9rem;
+}

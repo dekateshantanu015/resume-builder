@@ -1,6 +1,6 @@
 import "./IntroPage.css";
 
-const IntroPage = () => {
+const IntroPage = ({ getStartedFn }) => {
   return (
     <>
       <div className="intro-container">
@@ -16,7 +16,11 @@ const IntroPage = () => {
           A free resume builder for developers & software engineers.
         </p>
         <div className="start-btn-container">
-          <button type="button" className="get-started-btn">
+          <button
+            type="button"
+            onClick={getStartedFn}
+            className="get-started-btn"
+          >
             Get Started!
           </button>
         </div>
