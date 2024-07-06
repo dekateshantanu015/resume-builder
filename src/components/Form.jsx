@@ -1,3 +1,5 @@
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
+
 const Personal = () => {
   const summaryString = `As a Principal Software Engineer, I excel in designing and developing robust and scalable software solutions ...`;
 
@@ -42,8 +44,14 @@ const FormTitle = () => {
     <div className="form-title-div">
       <h3>Personal Details</h3>
       <div className="next-btn-div">
-        <button className="prev-btn">Back</button>
-        <button className="next-btn">Next</button>
+        <button className="prev-btn">
+          <FaAngleLeft />
+          Back
+        </button>
+        <button className="next-btn">
+          Next
+          <FaAngleRight />
+        </button>
       </div>
     </div>
   );
