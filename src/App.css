@@ -1,6 +1,7 @@
 :root {
-  --color-bg: black;
+  --color-bg: #1f1f1f;
   --color-text: whitesmoke;
+  --input-bg: rgb(46, 46, 46);
 }
 
 *,
@@ -33,4 +34,9 @@ body {
 
 h1 {
   font-size: 9rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
 }

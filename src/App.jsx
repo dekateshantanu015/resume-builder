@@ -23,6 +23,7 @@ function App() {
         <MainPage />
       )}
       {!showIntroPage && <button onClick={handleGoBack}>Go Back</button>}
+      {/* i've not changed the mainpage to default as in the gi repo of sandeep */}
     </div>
   );
 }
